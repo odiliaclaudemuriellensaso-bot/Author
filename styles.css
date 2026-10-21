@@ -145,3 +145,27 @@ blockquote {
   .book h3 { font-size: 1.2rem; }
   .book p { font-size: .9rem; }
 }
+
+/* Couvertures de Michaela Queen */
+.cover-light { background: linear-gradient(165deg, #f6e7c1 0%, #d9b36a 55%, #9a7434 100%); color: #3a2a12; }
+.cover-sub { font: italic 500 1rem var(--serif); margin-top: 6px; opacity: .85; }
+.c-phoenix { background: linear-gradient(160deg, #e0812f, #9c2a1c 55%, #3d0f0b); }
+.c-blackwood { background: linear-gradient(160deg, #56645c, #2a332e 60%, #121815); }
+
+/* Sagas */
+.intro { color: var(--muted); max-width: 36em; margin: 0; }
+.sagas { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.saga { display: grid; grid-template-columns: 160px 1fr; gap: 24px; align-items: center; }
+.saga .cover { padding: 16px; }
+.saga .cover-title { font-size: 1.3rem; }
+.saga .cover-author { font-size: .6rem; }
+.badge {
+  display: inline-block; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent); border: 1px solid var(--accent); padding: 2px 10px; border-radius: 20px; margin-bottom: 10px;
+}
+.saga p { margin: 0; }
+
+@media (max-width: 860px) {
+  .sagas { grid-template-columns: 1fr; gap: 36px; }
+  .saga { grid-template-columns: 120px 1fr; gap: 18px; }
+}
