@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prénom Nom — Auteure</title>
+  <meta name="description" content="Site officiel de Prénom Nom, auteure. Romans, actualités, rencontres et contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Prénom Nom</a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav">
+          <li><a href="#livres">Livres</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Accueil -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Auteure</p>
+          <h1>Des histoires qui<br><em>restent avec vous.</em></h1>
+          <p class="lead">Romancière, j'écris sur la mémoire, les liens familiaux et les secrets que l'on garde. Bienvenue dans mon univers.</p>
+          <div class="actions">
+            <a href="#livres" class="btn btn-primary">Découvrir mes livres</a>
+            <a href="#newsletter" class="btn btn-ghost">Recevoir la lettre</a>
+          </div>
+        </div>
+        <div class="hero-book">
+          <div class="cover cover-lg" aria-hidden="true">
+            <span class="cover-author">Prénom Nom</span>
+            <span class="cover-title">Titre du dernier roman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dernier livre -->
+    <section class="section featured" id="dernier-livre">
+      <div class="container featured-inner">
+        <div>
+          <p class="eyebrow">Nouveauté · Éditions Exemple · 2026</p>
+          <h2>Titre du dernier roman</h2>
+          <blockquote>« Une phrase d'accroche tirée du livre, qui donne envie d'en lire davantage. »</blockquote>
+          <p>Résumé du livre en quelques lignes : le personnage principal, le lieu, l'enjeu. Gardez-le court et intrigant, sans dévoiler la fin.</p>
+          <p class="praise">« Un roman bouleversant. » — <span>Nom du journal</span></p>
+          <a href="#" class="btn btn-primary">Commander le livre</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Livres -->
+    <section class="section" id="livres">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Bibliographie</p>
+          <h2>Mes livres</h2>
+        </div>
+        <div class="books">
+          <article class="book">
+            <div class="cover c1" aria-hidden="true"><span class="cover-title">Titre du livre</span></div>
+            <h3>Titre du livre</h3>
+            <p class="meta">Roman · 2026</p>
+            <p>Une phrase pour présenter ce livre.</p>
+          </article>
+          <article class="book">
+            <div class="cover c2" aria-hidden="true"><span class="cover-title">Titre du livre</span></div>
+            <h3>Titre du livre</h3>
+            <p class="meta">Roman · 2024</p>
+            <p>Une phrase pour présenter ce livre.</p>
+          </article>
+          <article class="book">
+            <div class="cover c3" aria-hidden="true"><span class="cover-title">Titre du livre</span></div>
+            <h3>Titre du livre</h3>
+            <p class="meta">Nouvelles · 2022</p>
+            <p>Une phrase pour présenter ce livre.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="section about" id="a-propos">
+      <div class="container about-inner">
+        <div class="portrait" aria-hidden="true"><span>Votre photo</span></div>
+        <div>
+          <p class="eyebrow">À propos</p>
+          <h2>Bonjour, je suis Prénom.</h2>
+          <p>Quelques lignes de biographie : où vous vivez, ce qui vous a menée à l'écriture, vos thèmes de prédilection. Écrivez à la première personne pour créer un lien direct avec vos lecteurs.</p>
+          <p>Vos prix, publications ou résidences d'écriture peuvent trouver leur place ici.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agenda -->
+    <section class="section" id="agenda">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Rencontres</p>
+          <h2>Agenda</h2>
+        </div>
+        <ul class="events">
+          <li>
+            <time datetime="2026-11-14"><strong>14</strong> nov.</time>
+            <div><h3>Rencontre et dédicace</h3><p>Librairie Exemple, Paris</p></div>
+          </li>
+          <li>
+            <time datetime="2026-12-05"><strong>05</strong> déc.</time>
+            <div><h3>Salon du livre</h3><p>Ville, stand n° 12</p></div>
+          </li>
+          <li>
+            <time datetime="2027-01-20"><strong>20</strong> janv.</time>
+            <div><h3>Lecture publique</h3><p>Médiathèque, Ville</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter" id="newsletter">
+      <div class="container narrow">
+        <h2>La lettre de Prénom</h2>
+        <p>Nouvelles parutions, coulisses de l'écriture et dates de rencontres. Une lettre par mois, pas plus.</p>
+        <form class="signup" action="#" method="post">
+          <label for="email" class="sr-only">Adresse e-mail</label>
+          <input id="email" type="email" name="email" placeholder="votre@email.fr" required>
+          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <p class="logo">Prénom Nom</p>
+        <p>Contact presse et événements :<br><a href="mailto:contact@exemple.fr">contact@exemple.fr</a></p>
+      </div>
+      <ul class="social">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Babelio</a></li>
+      </ul>
+    </div>
+    <p class="container copyright">© 2026 Prénom Nom. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
